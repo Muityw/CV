@@ -1,0 +1,19 @@
+.navegacao {
+    background-color: #498379;
+    padding: 10px; /* Adicionando um pouco de espaço */
+}
+
+.navegacao a {
+    color: #cea45c; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.navegacao a:visited {
+    color: #b9340b; /* Cor dos links visitados */
+}
+
+/*.color1 { #b9340b };
+.color2 { #cea45c };
+.color3 { #c5be8b };
+.color4 { #498379 };
+.color5 { #3f261c };*/
