@@ -1,3 +1,42 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #e8e4d6;
+}
+#navegacao {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#navegacao ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navegacao li {
+    margin: 10px 0;
+}
+
+#navegacao a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navegacao a:hover {
+    color: #ffd700;
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
 
 .body {
     background-color: #cea45c;
@@ -5,9 +44,7 @@
     place-items: left;
 }
 
-.body ul{
-    text-align: left;
-}
+
 
 /*.color1 { #b9340b };
 .color2 { #cea45c };
